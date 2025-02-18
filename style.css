@@ -1,0 +1,12 @@
+:root {
+  --Attribution-color: hsl(228, 45%, 44%);
+}
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  color: var(--slate-900);
+  position: relative;
+  padding-bottom: 5px;
+}
