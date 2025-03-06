@@ -26,3 +26,19 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* Responsive media queries */
+/* Mobile 390px-600px; */
+/* @media only screen and (max-width: 390px) {
+
+} */
+
+/* Tablet 768px */
+/* @media only screen and (min-width: 391px) and (max-width: 768px) {
+    
+} */
+
+/* Desktop size 992px, 1200px, 1440px*/
+/* @media only screen and (min-width: 769px) and (max-width: 1440px) {
+    
+} */
