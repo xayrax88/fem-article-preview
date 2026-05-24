@@ -183,14 +183,16 @@ footer {
 }
 
 /* Responsive  Media queries */
-/* Mobile size  390px - 600px*/
-@media only screen and (max-width: 390px) {
+/* Mobile size  390px - 425px*/
+@media only screen and (max-width: 425px) {
   .article-card {
+    display: flex;
     margin-inline: 1rem;
     margin-block: 2rem;
   }
 
   .card-container {
+    flex-direction: column;
     max-width: 528px;
     margin-inline: auto;
     background-color: var(--white);
