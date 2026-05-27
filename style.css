@@ -193,10 +193,10 @@ footer {
 
   .card-container {
     flex-direction: column;
-    max-width: 528px;
+    max-width: 327px;
     margin-inline: auto;
     background-color: var(--white);
-    border-radius: 1rem;
+    border-top-right-radius: 1rem;
     position: relative;
     overflow: hidden;
   }
@@ -322,7 +322,7 @@ footer {
 }
 
 /* Tablet size 768px*/
-@media only screen and (min-width: 391px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .article-card {
     height: 100vh;
     display: grid;
