@@ -288,13 +288,13 @@ footer {
   }
 
   .icon-container {
-    background-color: var(--very-dark-grayish-blue);
     display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: var(--very-dark-grayish-blue);
     align-items: center;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    height: 100px;
-    width: 100%;
     position: absolute;
     padding-inline: 1rem;
     bottom: -8rem;
@@ -355,11 +355,11 @@ footer {
   }
 
   .icon-container {
+    height: 50px;
     width: 250px;
     bottom: 6.5rem;
     right: -4rem;
     border-radius: 1rem;
-    height: 50px;
     transform: scale(0);
     transition: transform 0.3s ease-in-out;
   }

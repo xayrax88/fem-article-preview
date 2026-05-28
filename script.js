@@ -1,12 +1,15 @@
-const button = document.querySelector('.share-icon');
-const socialLinks = document.querySelector('.icon-container');
+const shareBtn = document.getElementById('social-btn');
+const socialLinks = document.querySelector('.social-links');
 
-button.addEventListener('click', () => {
+
+shareBtn.addEventListener('click', () => {
     socialLinks.classList.toggle('active');
 
-    if (button.classList.contains('share-active')) {
-        button.classList.toggle.remove('share-active', 'share-active-img');
+    if (shareBtn.classList.contains('share-active')) {
+        shareBtn.classList.remove('share-active', 'share-active-img');
     } else {
-        button.classList.add('share-active', 'share-active-img');
+        shareBtn.classList.add('share-active', 'share-active-img');
+        console.log(shareBtn.classList);
+
     }
 })
