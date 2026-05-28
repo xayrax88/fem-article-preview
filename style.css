@@ -171,7 +171,7 @@ footer {
 }
 
 .icon-container.active {
-  bottom: 94;
+  bottom: 0;
 }
 
 .share-active {
@@ -318,7 +318,9 @@ footer {
     display: flex;
     gap: 1rem;
   }
-
+  .icon-container.active {
+    bottom: 0;
+  }
   .icon-container span {
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -373,6 +375,7 @@ footer {
 
   .icon-container.active {
     transform: scale(1);
+    bottom: 94;
   }
 
   .icon-container .d-flex {
