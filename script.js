@@ -1,5 +1,5 @@
 const shareBtn = document.getElementById('social-btn');
-const socialLinks = document.querySelector('.social-links');
+const socialLinks = document.querySelector('.icon-container');
 
 
 shareBtn.addEventListener('click', () => {

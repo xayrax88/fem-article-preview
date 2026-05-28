@@ -216,7 +216,7 @@ footer {
   }
 
   .article-content h1 {
-    font-size: 1.4rem;
+    font-size: 20px;
     line-height: 1.4;
     color: var(--very-dark-grayish-blue);
     font-weight: 800;
@@ -224,7 +224,9 @@ footer {
   }
 
   .article-content p {
-    line-height: 1.6;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.12%;
     color: var(--desaturated-dark-blue);
     margin-bottom: 2.5rem;
     font-weight: 500;
@@ -250,13 +252,18 @@ footer {
   }
 
   .user .user-info h3 {
-    font-size: 1.1rem;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.12%;
     margin-bottom: 0.2rem;
     color: var(--very-dark-grayish-blue);
     font-weight: 600;
   }
 
   .user .user-info span {
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.12%;
     color: var(--desaturated-dark-blue);
   }
 
