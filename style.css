@@ -268,7 +268,7 @@ footer {
   }
 
   .share-icon {
-    --size: 45px;
+    --size: 32px;
     width: var(--size);
     height: var(--size);
     outline: none;
@@ -282,14 +282,14 @@ footer {
     z-index: 20;
     position: absolute;
     right: 0;
-    top: -80%;
+    top: -40%;
     transform: translateY(90%);
   }
 
   .share-icon img {
-    --size: 23px;
-    width: var(--size);
-    height: var(--size);
+    /* --size: 23px; */
+    width: 15px;
+    height: 12px;
     object-fit: cover;
     top: -1rem;
   }
