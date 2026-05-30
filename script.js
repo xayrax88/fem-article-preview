@@ -9,7 +9,7 @@ shareBtn.addEventListener('click', () => {
         shareBtn.classList.remove('share-active', 'share-active-img');
     } else {
         shareBtn.classList.add('share-active', 'share-active-img');
-        console.log(shareBtn.classList);
+
 
     }
 })

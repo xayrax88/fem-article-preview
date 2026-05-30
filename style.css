@@ -38,14 +38,14 @@ footer {
   margin-block: 2rem;
 }
 
-.card-container {
+/* .card-container {
   max-width: 528px;
   margin-inline: auto;
   background-color: var(--white);
   border-radius: 1rem;
   position: relative;
   overflow: hidden;
-}
+} */
 
 .drawer-image img {
   border-top-right-radius: 1rem;
@@ -70,7 +70,9 @@ footer {
 }
 
 .article-content p {
-  line-height: 1.6;
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0.12%;
   color: var(--desaturated-dark-blue);
   margin-bottom: 2.5rem;
   font-weight: 500;
@@ -196,9 +198,12 @@ footer {
     max-width: 327px;
     margin-inline: auto;
     background-color: var(--white);
-    border-top-right-radius: 1rem;
     position: relative;
     overflow: hidden;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
   }
 
   .drawer-image img {
@@ -213,23 +218,6 @@ footer {
 
   .article-content .inner-container {
     padding-inline: 1rem;
-  }
-
-  .article-content h1 {
-    font-size: 20px;
-    line-height: 1.4;
-    color: var(--very-dark-grayish-blue);
-    font-weight: 800;
-    margin-bottom: 1rem;
-  }
-
-  .article-content p {
-    font-size: 13px;
-    line-height: 140%;
-    letter-spacing: 0.12%;
-    color: var(--desaturated-dark-blue);
-    margin-bottom: 2.5rem;
-    font-weight: 500;
   }
 
   .user {
@@ -330,8 +318,8 @@ footer {
   }
 }
 
-/* Tablet size 768px*/
-@media only screen and (min-width: 426px) and (max-width: 768px) {
+/* Tablet & desktop size 768px-1440px*/
+@media only screen and (min-width: 426px) and (max-width: 1440px) {
   .article-card {
     height: 100vh;
     display: grid;
@@ -341,8 +329,13 @@ footer {
 
   .card-container {
     display: flex;
+    max-width: 608px;
+    margin-inline: auto;
+    background-color: var(--white);
+    position: relative;
     gap: 1rem;
     overflow: visible;
+    border-radius: 1rem;
   }
 
   .article-content {
